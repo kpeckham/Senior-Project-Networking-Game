@@ -1,0 +1,6 @@
+Girl welcome
+Boy welcome
+Segmentation explanation
+Pathfinding explanation
+Checksum explanation
+Good job
