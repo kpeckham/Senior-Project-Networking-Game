@@ -584,6 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Scroller: {fileID: 1607153715}
+  textBox: {fileID: 2013812900}
 --- !u!1 &1675381845
 GameObject:
   m_ObjectHideFlags: 0
