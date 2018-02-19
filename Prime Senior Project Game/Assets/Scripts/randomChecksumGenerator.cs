@@ -9,16 +9,20 @@ public class randomChecksumGenerator : MonoBehaviour {
 	public Text sum;
 	// Use this for initialization
 	void Start () {
+
+		Init ();
+	}
+
+	public void Init() {
 		int width = 3;
 		int percentageCorrect = 50;
-//		if (width != 3 || width != 4 || width != 5) {
-//			throw new System.ArgumentException("Width must be 3, 4, or 5");
-//		}
+		//		if (width != 3 || width != 4 || width != 5) {
+		//			throw new System.ArgumentException("Width must be 3, 4, or 5");
+		//		}
 		List<string> displayValues = generateSum (width, percentageCorrect);
 		string checkText = displayValues [0] + '\n' + displayValues [1];
 		binarynums.text = checkText;
 		sum.text = displayValues [2];
-
 	}
 
 
@@ -30,22 +34,22 @@ public class randomChecksumGenerator : MonoBehaviour {
 		int sum = 0;
 
 		if (width == 3) {
-			num1 = rand.Next (1, 9);
-			num2 = rand.Next (1, 9);
+			num1 = rand.Next (0, 8);
+			num2 = rand.Next (0, 8);
 
 			sum = (num1 + num2) % 8;
 		}
 
 		else if (width == 4) {
-			num1 = rand.Next (1, 17);
-			num2 = rand.Next (1, 17);
+			num1 = rand.Next (0, 16);
+			num2 = rand.Next (0, 16);
 
 			sum = (num1 + num2) % 16;
 		}
 
 		else if (width == 5) {
-			num1 = rand.Next (1, 33);
-			num2 = rand.Next (1, 33);
+			num1 = rand.Next (0, 32);
+			num2 = rand.Next (0, 32);
 
 			sum = (num1 + num2) % 32;
 		}
@@ -54,17 +58,17 @@ public class randomChecksumGenerator : MonoBehaviour {
 		if (percentage > percentageCorrect) {
 
 			if (width == 3) {
-				int notEqual = rand.Next (1, 9);
+				int notEqual = rand.Next (0, 8);
 				sum = (sum + notEqual) % 8;
 			} 
 
 			else if (width == 4) {
-				int notEqual = rand.Next (1, 17);
+				int notEqual = rand.Next (0, 16);
 				sum = (sum + notEqual) % 16;
 			} 
 
 			else if (width == 5) {
-				int notEqual = rand.Next (1, 33);
+				int notEqual = rand.Next (0, 32);
 				sum = (sum + notEqual) % 32;
 			}
 
