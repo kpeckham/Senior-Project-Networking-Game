@@ -40,8 +40,14 @@ public class CheckSumScroller : MonoBehaviour {
 			randomScript.Init ();
 
 		}
-		UnityEngine.Debug.Log (perc);
+		//UnityEngine.Debug.Log (perc);
         Scroller.transform.position = Vector3.Lerp(startpos, endpos, perc);
+    }
+
+    public void setTimeOut()
+    {
+        
+        currentTime = 20;
     }
 
 }
