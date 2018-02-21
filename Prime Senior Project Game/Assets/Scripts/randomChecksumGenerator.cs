@@ -7,6 +7,7 @@ using System;
 public class randomChecksumGenerator : MonoBehaviour {
 	public Text binarynums;
 	public Text sum;
+	public bool ansCorrect;
 	// Use this for initialization
 	void Start () {
 
@@ -32,6 +33,7 @@ public class randomChecksumGenerator : MonoBehaviour {
 		int num1 = 0;
 		int num2 = 0;
 		int sum = 0;
+		ansCorrect = true;
 
 		if (width == 3) {
 			num1 = rand.Next (0, 8);
@@ -56,6 +58,7 @@ public class randomChecksumGenerator : MonoBehaviour {
 			
 
 		if (percentage > percentageCorrect) {
+			ansCorrect = false; 
 
 			if (width == 3) {
 				int notEqual = rand.Next (0, 8);

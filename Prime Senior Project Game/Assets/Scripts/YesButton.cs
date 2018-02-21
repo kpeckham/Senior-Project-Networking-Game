@@ -7,7 +7,7 @@ public class YesButton : MonoBehaviour {
 
 	public void clickyes()
 	{
-		//check if yes is correct
+		//check if yes is correct(done)
 		//add points
 		//set scroll possition value to 1(done)
 		//call init()(done)

@@ -8,6 +8,7 @@ public class CheckSumScroller : MonoBehaviour {
     // object we will want to move
     public GameObject Scroller;
 	public GameObject textBox;
+    public int userpoints;
 
     private Vector3 startpos;
     private Vector3 endpos;
@@ -44,9 +45,28 @@ public class CheckSumScroller : MonoBehaviour {
         Scroller.transform.position = Vector3.Lerp(startpos, endpos, perc);
     }
 
-    public void setTimeOut()
+    public void usercorrect()
     {
-        
+        setTimeOut(true);
+    }
+
+    public void userincorrect()
+    {
+        setTimeOut(false);
+    }
+
+    public void setTimeOut(bool userchoice)
+    {
+        randomChecksumGenerator randomScript = textBox.GetComponent<randomChecksumGenerator> ();
+        if (randomScript.ansCorrect == userchoice)
+        { 
+            Debug.Log("Correct");
+            userpoints +=5;
+        }
+        else {
+            Debug.Log("Incorect");
+            userpoints -=1;
+        }
         currentTime = 20;
     }
 
