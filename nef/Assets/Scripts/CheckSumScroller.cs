@@ -83,6 +83,7 @@ public class CheckSumScroller : MonoBehaviour {
 	public void resetuserpoints()
 	{
 		userpoints =0;
+        userpoints2.text = " ";
 	}
 
 }

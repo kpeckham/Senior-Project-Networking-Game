@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 
 public class CheckSumScroller : MonoBehaviour {
@@ -10,8 +11,7 @@ public class CheckSumScroller : MonoBehaviour {
     public GameObject Scroller;
 	public GameObject textBox;
     public int userpoints;
-    public int userchoice2;
-    public Text scoreText;
+    public Text userpoints2;
 
     private Vector3 startpos;
     private Vector3 endpos;
@@ -65,12 +65,18 @@ public class CheckSumScroller : MonoBehaviour {
         { 
             Debug.Log("Correct");
             userpoints +=5;
-            Debug.Log(userpoints);
+            //Debug.Log(userpoints);
+            string number = userpoints.ToString();
+            Debug.Log(number);
+            userpoints2.text = (number);
         }
         else {
             Debug.Log("Incorect");
             userpoints -=1;
-            Debug.Log(userpoints);
+            //Debug.Log(userpoints);
+            string number = userpoints.ToString();
+            Debug.Log(number);
+            userpoints2.text = (number);
         }
         currentTime = 20;
     }
