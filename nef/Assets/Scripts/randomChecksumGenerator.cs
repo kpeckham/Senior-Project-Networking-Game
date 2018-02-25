@@ -8,7 +8,7 @@ public class randomChecksumGenerator : MonoBehaviour {
 	public Text binarynums;
 	public Text sum;
 	public bool ansCorrect;
-	public int 	currentlevel;
+	//public int 	currentlevel;
 	// Use this for initialization
 	void Start () {
 
@@ -26,12 +26,7 @@ public class randomChecksumGenerator : MonoBehaviour {
 		binarynums.text = checkText;
 		sum.text = displayValues [2];
 	}
-
-	public void currentlevel;
-	{
-		
-	}
-
+	
 	List<string> generateSum(int width, int percentageCorrect) {
 		System.Random rand = new System.Random ();
 		int percentage = rand.Next (1, 101);
