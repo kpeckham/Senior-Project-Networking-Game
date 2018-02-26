@@ -524,8 +524,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607153718}
+      - m_Target: {fileID: 1726874009}
         m_MethodName: userincorrect
         m_Mode: 1
         m_Arguments:
@@ -731,7 +731,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1607153718}
+      - m_Target: {fileID: 0}
         m_MethodName: resetuserpoints
         m_Mode: 1
         m_Arguments:
@@ -1301,11 +1301,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2567,11 +2567,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2827,8 +2827,8 @@ RectTransform:
   m_Children:
   - {fileID: 1026529704}
   - {fileID: 1051696636}
-  - {fileID: 1038843825}
   - {fileID: 1610064933}
+  - {fileID: 1038843825}
   m_Father: {fileID: 575953793}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2928,8 +2928,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.61764705, g: 0.61764705, b: 0.61764705, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.6911765, g: 0.6911765, b: 0.6911765, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -2947,8 +2947,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607153718}
+      - m_Target: {fileID: 1726874009}
         m_MethodName: usercorrect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1726874008}
+        m_MethodName: Init
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3228,11 +3239,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -3334,7 +3345,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Setting
+  m_Text: Settings
 --- !u!222 &913195949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3669,11 +3680,11 @@ RectTransform:
   m_Children:
   - {fileID: 2087065675}
   m_Father: {fileID: 807829150}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.0002, y: 22.15}
+  m_AnchoredPosition: {x: -6.0002, y: 24.4}
   m_SizeDelta: {x: 160.4, y: 44.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1038843826
@@ -3760,11 +3771,11 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
-        m_MethodName: 
+        m_MethodName: resetuserpoints
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3850,7 +3861,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.0002, y: 66.45}
+  m_AnchoredPosition: {x: -6.0002, y: 390.6}
   m_SizeDelta: {x: 160.4, y: 44.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051696637
@@ -4603,11 +4614,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -4710,7 +4721,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1607153717}
   - component: {fileID: 1607153716}
-  - component: {fileID: 1607153718}
   m_Layer: 0
   m_Name: Scroller
   m_TagString: Untagged
@@ -4776,21 +4786,6 @@ Transform:
   m_Father: {fileID: 1726874007}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1607153718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1607153715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 766c18d87fbd39144bba543ef3b51ae5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Scroller: {fileID: 1607153715}
-  textBox: {fileID: 2013812900}
-  userpoints: 0
-  userpoints2: {fileID: 1433747559}
 --- !u!1 &1610064932
 GameObject:
   m_ObjectHideFlags: 0
@@ -4821,11 +4816,11 @@ RectTransform:
   m_Children:
   - {fileID: 913195946}
   m_Father: {fileID: 807829150}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.0002, y: -22.15}
+  m_AnchoredPosition: {x: -6.0002, y: 73.7}
   m_SizeDelta: {x: 160.4, y: 44.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610064934
@@ -5098,13 +5093,14 @@ GameObject:
   - component: {fileID: 1726874005}
   - component: {fileID: 1726874004}
   - component: {fileID: 1726874008}
+  - component: {fileID: 1726874009}
   m_Layer: 0
   m_Name: Checksum Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1726874004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5198,9 +5194,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9deac9d9d32074be59676cbc8d4bfa4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  binarynums: {fileID: 0}
-  sum: {fileID: 0}
+  binarynums: {fileID: 2013812902}
+  sum: {fileID: 185404383}
   ansCorrect: 0
+--- !u!114 &1726874009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1726874003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766c18d87fbd39144bba543ef3b51ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scroller: {fileID: 1607153715}
+  textBox: {fileID: 1726874003}
+  userpoints: 0
+  userpoints2: {fileID: 1433747559}
 --- !u!1 &1741465614
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,7 +5226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1741465615
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5318,7 +5329,6 @@ GameObject:
   - component: {fileID: 1780778289}
   - component: {fileID: 1780778288}
   - component: {fileID: 1780778287}
-  - component: {fileID: 1780778290}
   m_Layer: 0
   m_Name: Pause
   m_TagString: Untagged
@@ -5395,7 +5405,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1780778290}
+      - m_Target: {fileID: 0}
         m_MethodName: StopAllCoroutines
         m_Mode: 1
         m_Arguments:
@@ -5474,17 +5484,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1780778285}
---- !u!114 &1780778290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1780778285}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33d3c0e69f90f4c42b4f527db3f487b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1793123717
 GameObject:
   m_ObjectHideFlags: 0
@@ -5553,7 +5552,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 5.214999}
-  m_SizeDelta: {x: 1018.0888, y: 6.9700003}
+  m_SizeDelta: {x: 0, y: 6.9700003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1865580308
 MonoBehaviour:
@@ -5679,7 +5678,6 @@ GameObject:
   - component: {fileID: 2013812901}
   - component: {fileID: 2013812903}
   - component: {fileID: 2013812902}
-  - component: {fileID: 2013812904}
   m_Layer: 0
   m_Name: binarynums
   m_TagString: Untagged
@@ -5744,20 +5742,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2013812900}
---- !u!114 &2013812904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2013812900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9deac9d9d32074be59676cbc8d4bfa4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  binarynums: {fileID: 2013812902}
-  sum: {fileID: 185404383}
-  ansCorrect: 0
 --- !u!1 &2023917302
 GameObject:
   m_ObjectHideFlags: 0
