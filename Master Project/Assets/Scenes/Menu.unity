@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 69401877}
   - component: {fileID: 69401878}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 192451175}
   - component: {fileID: 192451174}
   - component: {fileID: 192451173}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Settings Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 221214727}
   - component: {fileID: 221214726}
   - component: {fileID: 221214725}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Play Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,95 +468,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 221214726}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1741465614}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 102900000, guid: a7ea5e58ca3444eaaa4f1bc02ec76520, type: 3}
-        m_MethodName: 
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: Init
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: resetuserpoints
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1703797004}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &221214726
@@ -603,7 +515,7 @@ GameObject:
   - component: {fileID: 278487403}
   - component: {fileID: 278487402}
   - component: {fileID: 278487401}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +647,7 @@ GameObject:
   - component: {fileID: 283433901}
   - component: {fileID: 283433903}
   - component: {fileID: 283433902}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Settings Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -888,7 +800,7 @@ GameObject:
   - component: {fileID: 295784089}
   - component: {fileID: 295784091}
   - component: {fileID: 295784090}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Quit Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1009,11 +921,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1041,7 +953,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 296887238}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Settings Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +993,7 @@ GameObject:
   - component: {fileID: 304237174}
   - component: {fileID: 304237176}
   - component: {fileID: 304237175}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Back Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1236,7 +1148,7 @@ GameObject:
   - component: {fileID: 361824622}
   - component: {fileID: 361824624}
   - component: {fileID: 361824623}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Leader Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1258,8 +1170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.9125421, y: 233.82495}
-  m_SizeDelta: {x: 0, y: -6.0498962}
+  m_AnchoredPosition: {x: 0.9125421, y: 437.55002}
+  m_SizeDelta: {x: 0, y: 417.90002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361824623
 MonoBehaviour:
@@ -1325,7 +1237,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 0
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_enableKerning: 1
@@ -1389,7 +1301,7 @@ GameObject:
   - component: {fileID: 368063561}
   - component: {fileID: 368063563}
   - component: {fileID: 368063562}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1498,9 +1410,9 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
-  orthographic size: 292.23837
-  m_Depth: -1
+  orthographic: 0
+  orthographic size: 374.2798
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1522,8 +1434,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 551438503}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 243, y: 630.51, z: 0}
-  m_LocalScale: {x: 1, y: 1.217489, z: -0.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1539,13 +1451,13 @@ GameObject:
   - component: {fileID: 575953792}
   - component: {fileID: 575953791}
   - component: {fileID: 575953790}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &575953790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1573,7 +1485,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 600, y: 800}
@@ -1591,7 +1503,7 @@ Canvas:
   m_GameObject: {fileID: 575953789}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 1
+  m_RenderMode: 0
   m_Camera: {fileID: 551438506}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -1634,7 +1546,7 @@ GameObject:
   - component: {fileID: 590728914}
   - component: {fileID: 590728916}
   - component: {fileID: 590728915}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background Leader
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,7 +1569,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.2, y: 0.02}
-  m_SizeDelta: {x: 363.79, y: 646.23}
+  m_SizeDelta: {x: 602.5, y: 1067.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &590728915
 MonoBehaviour:
@@ -1678,7 +1590,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a0548ca11c83ade448566c429f54d34e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8160bfe0610dd44398ede5b888970e84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1700,7 +1612,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 591681825}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Leader Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1725,7 +1637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 329.6, y: 272.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &598749724
@@ -1739,7 +1651,7 @@ GameObject:
   - component: {fileID: 598749728}
   - component: {fileID: 598749727}
   - component: {fileID: 598749726}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Quit Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1872,7 +1784,7 @@ GameObject:
   - component: {fileID: 632725019}
   - component: {fileID: 632725018}
   - component: {fileID: 632725017}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Back Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1895,8 +1807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300.5}
-  m_SizeDelta: {x: 120.9, y: 43.8}
+  m_AnchoredPosition: {x: 0, y: -506.3}
+  m_SizeDelta: {x: 118.2, y: 42.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &632725017
 MonoBehaviour:
@@ -2004,7 +1916,7 @@ GameObject:
   - component: {fileID: 646440394}
   - component: {fileID: 646440396}
   - component: {fileID: 646440395}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Settings Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2123,11 +2035,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2158,7 +2070,7 @@ GameObject:
   - component: {fileID: 789895219}
   - component: {fileID: 789895218}
   - component: {fileID: 789895217}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: LeaderBoard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2290,7 +2202,7 @@ GameObject:
   - component: {fileID: 848510330}
   - component: {fileID: 848510332}
   - component: {fileID: 848510331}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Leader Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2409,11 +2321,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2443,7 +2355,7 @@ GameObject:
   - component: {fileID: 968745852}
   - component: {fileID: 968745854}
   - component: {fileID: 968745853}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2466,7 +2378,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.05025272, y: 0.008552322}
-  m_SizeDelta: {x: 363.75, y: 647.14}
+  m_SizeDelta: {x: 600.49, y: 1062.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &968745853
 MonoBehaviour:
@@ -2487,7 +2399,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a0548ca11c83ade448566c429f54d34e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8160bfe0610dd44398ede5b888970e84, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2511,7 +2423,7 @@ GameObject:
   - component: {fileID: 1226508694}
   - component: {fileID: 1226508696}
   - component: {fileID: 1226508695}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Volume Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2664,7 +2576,7 @@ GameObject:
   - component: {fileID: 1249288995}
   - component: {fileID: 1249288997}
   - component: {fileID: 1249288996}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Back Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2817,7 +2729,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1320811977}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2853,7 +2765,7 @@ GameObject:
   - component: {fileID: 1432379585}
   - component: {fileID: 1432379587}
   - component: {fileID: 1432379586}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: PLAY Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2974,11 +2886,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -3008,7 +2920,7 @@ GameObject:
   - component: {fileID: 1703797005}
   - component: {fileID: 1703797007}
   - component: {fileID: 1703797006}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3030,8 +2942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.10991512, y: -0.14}
-  m_SizeDelta: {x: 363.8, y: 647.31}
+  m_AnchoredPosition: {x: 1.6, y: 1.5}
+  m_SizeDelta: {x: 609.9, y: 1062.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703797006
 MonoBehaviour:
@@ -3074,7 +2986,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1741465615}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3114,7 +3026,7 @@ GameObject:
   - component: {fileID: 1770254701}
   - component: {fileID: 1770254703}
   - component: {fileID: 1770254702}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3180,7 +3092,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1793123718}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle Slide Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3216,7 +3128,7 @@ GameObject:
   - component: {fileID: 1964658940}
   - component: {fileID: 1964658942}
   - component: {fileID: 1964658941}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
