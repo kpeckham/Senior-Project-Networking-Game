@@ -1,6 +1,9 @@
-Girl welcome
-Boy welcome
-Segmentation explanation
-Pathfinding explanation
+Welcome
+“Hi there! You must be our new Postmaster. 
+
 Checksum explanation
+Pathfinding explanation
+Segmentation explanation
+
+
 Good job
