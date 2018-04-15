@@ -14,3 +14,36 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PauseMenu.unity
     guid: 7742bfd4eacb3e5448994ae13408e08a
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl1.unity
+    guid: 8a7833044742ee8488d56f5ecf545538
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl2.unity
+    guid: 2e44d20736a333a478d7ed30167443f6
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl3.unity
+    guid: 4ad51ef3acd6b114abb033ffde0351d3
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl4.unity
+    guid: fd483809bed39f0409562d3ab5487af7
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl5.unity
+    guid: bdb76fe026df5614f8c7c827a8a63d05
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl6.unity
+    guid: 48126e8765619494c9c61345ecbc2725
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl7.unity
+    guid: 39df2e0d9cc87a94eae472f9e87bd528
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl8.unity
+    guid: ec6837199c79d304aae8b210b185dd21
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl9.unity
+    guid: 2ab8d33ed940359449253e138f927cb9
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl10.unity
+    guid: 9f4e265e4da1c304ba89e1738cc08a11
+  - enabled: 1
+    path: Assets/Scenes/Checksum Levels/lvl11.unity
+    guid: 80be72a8237ebf440b447baa62918152
