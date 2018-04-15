@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu2 : MonoBehaviour {
+public class MainMenu : MonoBehaviour {
 
-	public void playGame()
+	public void changeMenuScene(string sceneName)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene (sceneName);
     }
 
     public void quitGame()
