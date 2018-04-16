@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 m_EditorVersion: 2017.4.0f1
-=======
-m_EditorVersion: 2017.3.0f3
->>>>>>> 569675a... Menu changes
+
