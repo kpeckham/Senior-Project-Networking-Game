@@ -840,10 +840,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766c18d87fbd39144bba543ef3b51ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scroller: {fileID: 1723747945}
-  textBox: {fileID: 0}
-  userpoints: 0
-  userpoints2: {fileID: 882905938}
 --- !u!1 &691944797
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,7 +1205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!124 &1496183575
 Behaviour:
   m_ObjectHideFlags: 0
@@ -1334,10 +1330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766c18d87fbd39144bba543ef3b51ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Scroller: {fileID: 1723747945}
-  textBox: {fileID: 1496183573}
-  userpoints: 0
-  userpoints2: {fileID: 882905938}
 --- !u!1 &1570447841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2015,7 +2007,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000045776, y: 88.063}
-  m_SizeDelta: {x: 820.4973, y: 645.4}
+  m_SizeDelta: {x: 0, y: 645.4}
   m_Pivot: {x: 0.50000006, y: 0.6369119}
 --- !u!114 &1865580308
 MonoBehaviour:
