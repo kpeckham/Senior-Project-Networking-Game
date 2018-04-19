@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-public class randomChecksumGenerator : MonoBehaviour {
+public class randomChecksumGenerator2 : MonoBehaviour {
 	public Text binarynums;
 	public Text sum;
 	public bool ansCorrect;
@@ -16,7 +16,7 @@ public class randomChecksumGenerator : MonoBehaviour {
 	}
 
 	public void Init() {
-		int width = 3;
+		int width = 5;
 		int percentageCorrect = 50;
 		//		if (width != 3 || width != 4 || width != 5) {
 		//			throw new System.ArgumentException("Width must be 3, 4, or 5");
@@ -77,9 +77,9 @@ public class randomChecksumGenerator : MonoBehaviour {
 
 		}
 
-		string binarynum1 = Convert.ToString (num1, 2).PadLeft(3, '0');
-		string binarynum2 = Convert.ToString (num2, 2).PadLeft(3, '0');
-		string binarysum = Convert.ToString (sum, 2).PadLeft(3, '0');
+		string binarynum1 = Convert.ToString (num1, 2).PadLeft(5, '0');
+		string binarynum2 = Convert.ToString (num2, 2).PadLeft(5, '0');
+		string binarysum = Convert.ToString (sum, 2).PadLeft(5, '0');
 		return new List<string> (3){ binarynum1, binarynum2, binarysum };
 	}
 	
