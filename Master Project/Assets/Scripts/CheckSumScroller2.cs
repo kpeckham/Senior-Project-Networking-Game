@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System;
 
 
-public class CheckSumScroller : MonoBehaviour {
+public class CheckSumScroller2 : MonoBehaviour {
 
     // object we will want to move
     public GameObject Scroller;
@@ -18,7 +18,7 @@ public class CheckSumScroller : MonoBehaviour {
 
     private float distance = 700f;
 
-    private float time = 20;
+    private float time = 4;
 
     private float currentTime = 0;
 
@@ -78,7 +78,7 @@ public class CheckSumScroller : MonoBehaviour {
             Debug.Log(number);
             userpoints2.text = (number);
         }
-        currentTime = 20;
+        currentTime = 3;
     }
 	public void resetuserpoints()
 	{
