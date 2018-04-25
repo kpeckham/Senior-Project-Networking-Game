@@ -16,7 +16,7 @@ public class CheckSumScroller1 : MonoBehaviour {
     private Vector3 startpos;
     private Vector3 endpos;
 
-    private float distance = 1650f;
+	private float distance = 1800f;
 
     private float time = 10;
 
@@ -40,7 +40,7 @@ public class CheckSumScroller1 : MonoBehaviour {
 		if (perc > 1) {
 			currentTime = 0;
 			perc = 0;
-			randomChecksumGenerator randomScript = textBox.GetComponent<randomChecksumGenerator> ();
+			randomChecksumGenerator1 randomScript = textBox.GetComponent<randomChecksumGenerator1> ();
 			randomScript.Init ();
 
 		}
@@ -60,7 +60,7 @@ public class CheckSumScroller1 : MonoBehaviour {
 
     public void setTimeOut(bool userchoice)
     {
-        randomChecksumGenerator randomScript = textBox.GetComponent<randomChecksumGenerator> ();
+        randomChecksumGenerator1 randomScript = textBox.GetComponent<randomChecksumGenerator1> ();
         if (randomScript.ansCorrect == userchoice)
         { 
             Debug.Log("Correct");
