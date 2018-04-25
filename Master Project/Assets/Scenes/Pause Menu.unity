@@ -320,7 +320,7 @@ GameObject:
   - component: {fileID: 221214726}
   - component: {fileID: 221214725}
   m_Layer: 0
-  m_Name: Play Button
+  m_Name: Resume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1302,7 +1302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1741465615}
   m_Layer: 0
-  m_Name: MainMenu
+  m_Name: Pause Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
