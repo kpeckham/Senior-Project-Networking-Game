@@ -16,9 +16,10 @@ public class CheckSumScroller1 : MonoBehaviour {
     private Vector3 startpos;
     private Vector3 endpos;
 
-    private float distance = 700f;
+	private float distance = 1650f;
 
-    private float time = 8;
+    private float time = 10;
+
 
     private float currentTime = 0;
 
@@ -78,7 +79,7 @@ public class CheckSumScroller1 : MonoBehaviour {
             Debug.Log(number);
             userpoints2.text = (number);
         }
-        currentTime = 2;
+        currentTime = 20;
     }
 	public void resetuserpoints()
 	{

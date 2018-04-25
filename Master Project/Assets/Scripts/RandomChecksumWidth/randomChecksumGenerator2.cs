@@ -22,9 +22,9 @@ public class randomChecksumGenerator2 : MonoBehaviour {
 		//			throw new System.ArgumentException("Width must be 3, 4, or 5");
 		//		}
 		List<string> displayValues = generateSum (width, percentageCorrect);
-		string checkText = displayValues [0] + '\n' + displayValues [1];
+		string checkText = "    " + displayValues [0] + '\n' + "+" + " " + displayValues [1];
 		binarynums.text = checkText;
-		sum.text = displayValues [2];
+		sum.text = "   " + displayValues [2];
 	}
 	
 	List<string> generateSum(int width, int percentageCorrect) {

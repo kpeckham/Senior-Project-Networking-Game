@@ -5,15 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: dac02f5c0cff4a34ba3af772417ceef9
-  - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: a7ea5e58ca3444eaaa4f1bc02ec76520
-  - enabled: 1
-    path: Assets/Scenes/PauseMenu.unity
-    guid: 7742bfd4eacb3e5448994ae13408e08a
+    path: Assets/Scenes/Pause Menu.unity
+    guid: 832763b29dbfc3648bce05e203dbd89f
   - enabled: 1
     path: Assets/Scenes/Checksum Levels/lvl1.unity
     guid: 8a7833044742ee8488d56f5ecf545538
@@ -44,6 +41,3 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Checksum Levels/lvl10.unity
     guid: 9f4e265e4da1c304ba89e1738cc08a11
-  - enabled: 1
-    path: Assets/Scenes/Checksum Levels/lvl11.unity
-    guid: 80be72a8237ebf440b447baa62918152
