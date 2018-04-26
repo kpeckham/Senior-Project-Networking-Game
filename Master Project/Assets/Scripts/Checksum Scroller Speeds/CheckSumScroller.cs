@@ -16,7 +16,7 @@ public class CheckSumScroller : MonoBehaviour {
 	private Vector3 startpos;
 	private Vector3 endpos;
 
-	private float distance = 1800f;
+	private float distance = 850f;
 
 	private float time = 20;
 
@@ -28,6 +28,8 @@ public class CheckSumScroller : MonoBehaviour {
 		startpos = Scroller.transform.position;
 
 		endpos = Scroller.transform.position + Vector3.down * distance;
+		Debug.Log (startpos);
+		Debug.Log (endpos);
 	}
 
 	// Update is called once per frame
