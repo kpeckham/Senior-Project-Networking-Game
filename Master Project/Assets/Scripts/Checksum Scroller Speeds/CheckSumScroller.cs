@@ -16,7 +16,7 @@ public class CheckSumScroller : MonoBehaviour {
 	private Vector3 startpos;
 	private Vector3 endpos;
 
-	private float distance = 850f;
+	private float distance = 1150f;
 
 	private float time = 20;
 
