@@ -11,7 +11,7 @@ public class CheckSumScroller : MonoBehaviour {
 	public GameObject Scroller;
 	public GameObject textBox;
 	public int userpoints;
-	public Text userpoints2;
+	public Text userPointsText;
 
 	private Vector3 startpos;
 	private Vector3 endpos;
@@ -67,25 +67,28 @@ public class CheckSumScroller : MonoBehaviour {
 		{ 
 			Debug.Log("Correct");
 			userpoints +=5;
-			//Debug.Log(userpoints);
+			Debug.Log(userpoints);
 			string number = userpoints.ToString();
 			Debug.Log(number);
-			userpoints2.text = (number);
+			userPointsText.text = (number);
 		}
 		else {
 			Debug.Log("Incorect");
 			userpoints -=1;
-			//Debug.Log(userpoints);
+			if (userpoints < 0) {
+				userpoints = 0;
+			}
+			Debug.Log(userpoints);
 			string number = userpoints.ToString();
 			Debug.Log(number);
-			userpoints2.text = (number);
+			userPointsText.text = (number);
 		}
 		currentTime = 20;
 	}
 	public void resetuserpoints()
 	{
 		userpoints =0;
-		userpoints2.text = " ";
+		userPointsText.text = "0";
 	}
 
 }
