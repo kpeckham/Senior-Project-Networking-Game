@@ -17,7 +17,7 @@ public class PathGenerator : MonoBehaviour {
 	private Text pathWeight;
 	public int source;
 	public int destination;
-	public int[] distances;
+	private int[] distances;
 	// TODO connect nodes and edges to view
 	// TODO add source/destination logic for allowing paths to be tapped
 	// TODO add instruction pop-up
