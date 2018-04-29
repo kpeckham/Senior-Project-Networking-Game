@@ -1484,6 +1484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703552749}
   - component: {fileID: 703552752}
+  - component: {fileID: 703552751}
   - component: {fileID: 703552750}
   m_Layer: 0
   m_Name: binarynums
@@ -1516,6 +1517,21 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703552748}
+--- !u!114 &703552751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 703552748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 766c18d87fbd39144bba543ef3b51ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Scroller: {fileID: 0}
+  textBox: {fileID: 0}
+  userpoints: 0
+  userpoints2: {fileID: 0}
 --- !u!114 &703552752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3262,8 +3278,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0
+    height: 0
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 50.6
