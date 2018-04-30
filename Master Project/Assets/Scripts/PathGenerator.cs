@@ -14,6 +14,7 @@ using System.Diagnostics;
 
 public class PathGenerator : MonoBehaviour {
 	public List<Text> pathWeights;
+	public List<GameObject> pathObjects;
 	private Text pathWeight;
 	public int source;
 	public int destination;
@@ -104,7 +105,29 @@ public class PathGenerator : MonoBehaviour {
 		return minIndex;
 	}
 
-	
+	public void checkScore()
+	{
+		int distance = 0;
+		for (int i = 0; i < pathObjects.Count; i++)
+		{
+			if (pathObjects [i].activeSelf) 
+			{
+				distance += Int32.Parse (pathWeights [i].text);
+			}
+		}
+
+		if (distance == distances [destination]) {
+			// go to end scene
+			// score?????????? or just Complete?????
+		} 
+		else 
+		{
+			// pop-up box with some info and try again/quit options
+			// clear all paths clicked and try again
+		}
+			
+	}
+		
 	// Update is called once per frame
 	void Update () {
 		
