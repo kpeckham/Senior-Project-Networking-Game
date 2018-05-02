@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 
 public class CheckSumScroller : MonoBehaviour {
@@ -21,6 +22,8 @@ public class CheckSumScroller : MonoBehaviour {
 	private float time = 20;
 
 	private float currentTime = 0;
+
+	public int CheckGameOverNum = 0;
 
 	// Use this for initialization
 	void Start()
@@ -50,6 +53,11 @@ public class CheckSumScroller : MonoBehaviour {
 		Scroller.transform.position = Vector3.Lerp(startpos, endpos, perc);
 	}
 
+	public void changeMenuScene(string sceneName)
+	{
+		SceneManager.LoadScene (sceneName);
+	}
+
 	public void usercorrect()
 	{
 		setTimeOut(true);
@@ -75,6 +83,7 @@ public class CheckSumScroller : MonoBehaviour {
 		else {
 			Debug.Log("Incorect");
 			userpoints -=1;
+			CheckGameOverNum +=1;
 			if (userpoints < 0) {
 				userpoints = 0;
 			}
@@ -82,6 +91,10 @@ public class CheckSumScroller : MonoBehaviour {
 			string number = userpoints.ToString();
 			Debug.Log(number);
 			userPointsText.text = (number);
+			if (CheckGameOverNum == 3) 
+			{
+				changeMenuScene ("ChecksumGameOver1-2");
+			}
 		}
 		currentTime = 20;
 	}

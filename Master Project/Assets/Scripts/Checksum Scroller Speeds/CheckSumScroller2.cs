@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 
 public class CheckSumScroller2 : MonoBehaviour {
@@ -11,16 +12,18 @@ public class CheckSumScroller2 : MonoBehaviour {
 	public GameObject Scroller;
 	public GameObject textBox;
 	public int userpoints;
-	public Text userpoints2;
+	public Text userPointsText;
 
 	private Vector3 startpos;
 	private Vector3 endpos;
 
-	private float distance = 850f;
+	private float distance = 1150f;
 
-	private float time = 5;
+	private float time = 8;
 
 	private float currentTime = 0;
+
+	public int CheckGameOverNum = 0;
 
 	// Use this for initialization
 	void Start()
@@ -28,6 +31,8 @@ public class CheckSumScroller2 : MonoBehaviour {
 		startpos = Scroller.transform.position;
 
 		endpos = Scroller.transform.position + Vector3.down * distance;
+		Debug.Log (startpos);
+		Debug.Log (endpos);
 	}
 
 	// Update is called once per frame
@@ -48,6 +53,11 @@ public class CheckSumScroller2 : MonoBehaviour {
 		Scroller.transform.position = Vector3.Lerp(startpos, endpos, perc);
 	}
 
+	public void changeMenuScene(string sceneName)
+	{
+		SceneManager.LoadScene (sceneName);
+	}
+
 	public void usercorrect()
 	{
 		setTimeOut(true);
@@ -65,25 +75,33 @@ public class CheckSumScroller2 : MonoBehaviour {
 		{ 
 			Debug.Log("Correct");
 			userpoints +=5;
-			//Debug.Log(userpoints);
+			Debug.Log(userpoints);
 			string number = userpoints.ToString();
 			Debug.Log(number);
-			userpoints2.text = (number);
+			userPointsText.text = (number);
 		}
 		else {
 			Debug.Log("Incorect");
 			userpoints -=1;
-			//Debug.Log(userpoints);
+			CheckGameOverNum +=1;
+			if (userpoints < 0) {
+				userpoints = 0;
+			}
+			Debug.Log(userpoints);
 			string number = userpoints.ToString();
 			Debug.Log(number);
-			userpoints2.text = (number);
+			userPointsText.text = (number);
+			if (CheckGameOverNum == 3) 
+			{
+				changeMenuScene ("ChecksumGameOver3-4");
+			}
 		}
 		currentTime = 20;
 	}
 	public void resetuserpoints()
 	{
 		userpoints =0;
-		userpoints2.text = " ";
+		userPointsText.text = "0";
 	}
 
 }
