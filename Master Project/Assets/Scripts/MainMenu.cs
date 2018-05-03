@@ -46,7 +46,7 @@ public class MainMenu : MonoBehaviour {
 
 	public void WhoIsChosen()
 	{
-		if (IsNinaChosen = true) {
+		if (IsNinaChosen == true) {
 			Debug.Log ("Nina is Chosen");
 		} else
 			Debug.Log ("Andy is Chosen");
