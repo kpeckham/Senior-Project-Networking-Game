@@ -39,7 +39,7 @@ public class PathGenerator : MonoBehaviour {
 		int[][] edgeArray = new int[][] {new int[] {1,13},new int[] {1,3}, new int[] {13,2}, new int[] {3,4}, 
 			new int[] {4,2}, new int[] {4,5}, new int[] {6,5}, new int[] {6,7},
 			new int[] {5,9}, new int[] {9,10}, new int[] {9,8}, new int[] {8,12},
-			new int[] {11,12}, new int[] {9,11}, new int[] {8,7}, new int[] {13,6}};
+			new int[] {11,12}, new int[] {9,11}, new int[] {8,7}, new int[] {13,6}, new int[] {0,1}};
 		
 		foreach (int[] edge in edgeArray) {
 			int edgeNum = rand.Next (1, level + 5);
