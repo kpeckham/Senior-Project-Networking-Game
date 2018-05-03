@@ -2043,7 +2043,8 @@ MonoBehaviour:
   Scroller: {fileID: 0}
   textBox: {fileID: 0}
   userpoints: 0
-  userpoints2: {fileID: 0}
+  userPointsText: {fileID: 0}
+  CheckGameOverNum: 0
 --- !u!114 &881971311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2245,6 +2246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4a2670a94a4514babf62aa999517e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterChosen: 0
+  IsNinaChosen: 0
 --- !u!114 &927251914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2284,7 +2287,8 @@ MonoBehaviour:
   Scroller: {fileID: 1161847318}
   textBox: {fileID: 927251912}
   userpoints: 0
-  userpoints2: {fileID: 2117835312}
+  userPointsText: {fileID: 2117835312}
+  CheckGameOverNum: 0
 --- !u!222 &927251917
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2336,7 +2340,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 86.145485
+  field of view: 65.05431
   orthographic: 0
   orthographic size: 5
   m_Depth: 100

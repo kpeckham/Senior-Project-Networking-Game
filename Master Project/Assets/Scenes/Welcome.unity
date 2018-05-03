@@ -533,6 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CharacterChosen: 0
+  IsNinaChosen: 0
 --- !u!1 &974775923
 GameObject:
   m_ObjectHideFlags: 0
