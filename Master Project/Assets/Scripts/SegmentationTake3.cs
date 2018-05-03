@@ -23,6 +23,7 @@ public class SegmentationTake3 : MonoBehaviour {
     private Vector3 startpos;
     private Vector3 startPosGame;           // parcel gets moved out of the screen where it starts its life
     private Vector3 endPos;
+
     public Transform target;
     private float distance = 188f*4;        // distance object needs to be send back to
     private float distanceRight = 250f;
@@ -57,7 +58,7 @@ public class SegmentationTake3 : MonoBehaviour {
 
         string strBox;                 // string that will represent each box it will consist of one number and one letter
         strBox = string.Empty;
-
+        Debug.Log(strBox);
         List<int> listOfParcels = new List<int>();  // the values of each parcel will be stored in this list
         List<int> listOfBoxes = new List<int>();    // the values of each box will be stored in this list
         List<int> listOfParcelforCheck = new List<int>();       // list that will be used for checking conditions( this contains our boxes numbers /10)
@@ -102,9 +103,11 @@ public class SegmentationTake3 : MonoBehaviour {
             
             if (parcTxt1.text == "")
             {
+                Debug.Log(listOfStrBox);
                 int ii = listOfParcels[parcelIndex];     // assign your textbox or your gamebject value here for ii jj kk and ll!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 parcTxt1.text = listOfStrBox[parcelIndex];      // assign your string for that box
-                parcelIndex++;
+
+                parcelIndex = parcelIndex +1;
                 //MoveFunc();
                 //MoveSpeed();
                 //GameObject.Find("Parcel").transform.position;
@@ -114,7 +117,8 @@ public class SegmentationTake3 : MonoBehaviour {
 
             if (parcTxt2.text == "")
             {
-                Destroy(ObjParcel2);
+                //Destroy(ObjParcel2);
+                Debug.Log(parcelIndex);
                 int jj = listOfParcels[parcelIndex];
                 parcTxt2.text = listOfStrBox[parcelIndex];      // assign your string for that box
                 parcelIndex++;

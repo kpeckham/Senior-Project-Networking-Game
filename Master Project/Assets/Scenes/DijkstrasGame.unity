@@ -292,7 +292,7 @@ GameObject:
   - component: {fileID: 33404702}
   - component: {fileID: 33404701}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 11,12 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -723,7 +723,7 @@ GameObject:
   - component: {fileID: 113116243}
   - component: {fileID: 113116242}
   m_Layer: 5
-  m_Name: Text (15)
+  m_Name: 2,13 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1300,7 +1300,7 @@ GameObject:
   - component: {fileID: 211062192}
   - component: {fileID: 211062191}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 5,6 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1552,7 +1552,7 @@ GameObject:
   - component: {fileID: 251076389}
   - component: {fileID: 251076388}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 7,8 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1783,7 +1783,7 @@ GameObject:
   - component: {fileID: 276032182}
   - component: {fileID: 276032181}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 9,11 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2186,7 +2186,7 @@ GameObject:
   - component: {fileID: 353467947}
   - component: {fileID: 353467946}
   m_Layer: 5
-  m_Name: Image (12)
+  m_Name: 1,3 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2771,7 +2771,7 @@ GameObject:
   - component: {fileID: 390849537}
   - component: {fileID: 390849536}
   m_Layer: 5
-  m_Name: Image (19)
+  m_Name: 1,13 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3073,7 +3073,7 @@ GameObject:
   - component: {fileID: 453049654}
   - component: {fileID: 453049653}
   m_Layer: 5
-  m_Name: Text (18)
+  m_Name: 3,4 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3149,7 +3149,7 @@ GameObject:
   - component: {fileID: 453136394}
   - component: {fileID: 453136393}
   m_Layer: 5
-  m_Name: Image (15)
+  m_Name: 2, 13 Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4204,7 +4204,7 @@ GameObject:
   - component: {fileID: 562570928}
   - component: {fileID: 562570931}
   m_Layer: 5
-  m_Name: 4,3
+  m_Name: 4,5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5427,7 +5427,7 @@ GameObject:
   - component: {fileID: 706705962}
   - component: {fileID: 706705964}
   m_Layer: 5
-  m_Name: Text (12)
+  m_Name: 1,3 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5802,7 +5802,7 @@ GameObject:
   - component: {fileID: 778726000}
   - component: {fileID: 778725999}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 9,10 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6059,7 +6059,7 @@ GameObject:
   - component: {fileID: 843138383}
   - component: {fileID: 843138385}
   m_Layer: 5
-  m_Name: Text (13)
+  m_Name: 4,5 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6239,7 +6239,7 @@ GameObject:
   - component: {fileID: 859621392}
   - component: {fileID: 859621391}
   m_Layer: 5
-  m_Name: Image (11)
+  m_Name: 0,1 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6307,7 +6307,7 @@ GameObject:
   - component: {fileID: 894908823}
   - component: {fileID: 894908822}
   m_Layer: 5
-  m_Name: Text (11)
+  m_Name: 0,1 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6457,7 +6457,7 @@ GameObject:
   - component: {fileID: 1053851432}
   - component: {fileID: 1053851431}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 5,6 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7502,7 +7502,7 @@ GameObject:
   - component: {fileID: 1322584513}
   - component: {fileID: 1322584512}
   m_Layer: 5
-  m_Name: Text (19)
+  m_Name: 1,13 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7662,7 +7662,7 @@ GameObject:
   - component: {fileID: 1401443085}
   - component: {fileID: 1401443084}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 6,7 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7765,7 +7765,7 @@ GameObject:
   - component: {fileID: 1447351571}
   - component: {fileID: 1447351570}
   m_Layer: 5
-  m_Name: Image (20)
+  m_Name: 9,8 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7833,7 +7833,7 @@ GameObject:
   - component: {fileID: 1450649494}
   - component: {fileID: 1450649493}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 8,12 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7909,7 +7909,7 @@ GameObject:
   - component: {fileID: 1454148436}
   - component: {fileID: 1454148435}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 7,8 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8051,7 +8051,7 @@ GameObject:
   - component: {fileID: 1532957660}
   - component: {fileID: 1532957659}
   m_Layer: 5
-  m_Name: Image (14)
+  m_Name: 2,4 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8117,7 +8117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1563527307}
   m_Layer: 5
-  m_Name: Circulrs & Numbers
+  m_Name: Circles and Numbers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8165,6 +8165,8 @@ RectTransform:
   - {fileID: 1322584511}
   - {fileID: 1447351569}
   - {fileID: 1767678848}
+  - {fileID: 1599671596}
+  - {fileID: 2069037860}
   m_Father: {fileID: 469739839}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8184,7 +8186,7 @@ GameObject:
   - component: {fileID: 1563655391}
   - component: {fileID: 1563655390}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 9,11 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8397,6 +8399,74 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1580466839}
+--- !u!1 &1599671595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1599671596}
+  - component: {fileID: 1599671598}
+  - component: {fileID: 1599671597}
+  m_Layer: 5
+  m_Name: 5,9 Circle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1599671596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599671595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: -32.159996}
+  m_Children: []
+  m_Father: {fileID: 1563527307}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 110.2, y: 16.22}
+  m_SizeDelta: {x: 19.01, y: 36.58}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1599671597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599671595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 34c40ef7d0e354af1ae753d061135137, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1599671598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1599671595}
 --- !u!1 &1630655847
 GameObject:
   m_ObjectHideFlags: 0
@@ -8631,7 +8701,7 @@ GameObject:
   - component: {fileID: 1649229846}
   - component: {fileID: 1649229848}
   m_Layer: 5
-  m_Name: Text (14)
+  m_Name: 2,4 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8960,7 +9030,7 @@ GameObject:
   - component: {fileID: 1711392580}
   - component: {fileID: 1711392579}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 8,12 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9028,7 +9098,7 @@ GameObject:
   - component: {fileID: 1713225599}
   - component: {fileID: 1713225598}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 13,6 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9309,7 +9379,7 @@ GameObject:
   - component: {fileID: 1752774371}
   - component: {fileID: 1752774370}
   m_Layer: 5
-  m_Name: Image (17)
+  m_Name: 9,10 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9377,7 +9447,7 @@ GameObject:
   - component: {fileID: 1764646579}
   - component: {fileID: 1764646578}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 11,12 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9453,7 +9523,7 @@ GameObject:
   - component: {fileID: 1767678850}
   - component: {fileID: 1767678849}
   m_Layer: 5
-  m_Name: Text (20)
+  m_Name: 9,8 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9642,23 +9712,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathWeights:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1322584512}
+  - {fileID: 706705962}
+  - {fileID: 113116242}
+  - {fileID: 453049653}
+  - {fileID: 1649229846}
+  - {fileID: 843138383}
+  - {fileID: 1053851431}
+  - {fileID: 2069450795}
+  - {fileID: 2069037862}
+  - {fileID: 778725999}
+  - {fileID: 1767678849}
+  - {fileID: 1450649493}
+  - {fileID: 1764646578}
+  - {fileID: 276032181}
+  - {fileID: 251076388}
+  - {fileID: 2006753928}
+  - {fileID: 894908822}
   pathObjects: []
   source: 0
   destination: 0
@@ -9673,7 +9743,7 @@ GameObject:
   - component: {fileID: 1797015321}
   - component: {fileID: 1797015320}
   m_Layer: 5
-  m_Name: Image (18)
+  m_Name: 3,4 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10403,7 +10473,7 @@ GameObject:
   - component: {fileID: 2006753929}
   - component: {fileID: 2006753928}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 13, 6 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10553,7 +10623,7 @@ GameObject:
   - component: {fileID: 2043578559}
   - component: {fileID: 2043578558}
   m_Layer: 5
-  m_Name: Image (13)
+  m_Name: 4,5 Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11032,6 +11102,82 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2056228257}
+--- !u!1 &2069037859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2069037860}
+  - component: {fileID: 2069037861}
+  - component: {fileID: 2069037862}
+  m_Layer: 5
+  m_Name: 5,9 Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2069037860
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069037859}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 1563527307}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 110.19998, y: 16.220009}
+  m_SizeDelta: {x: 8.561, y: 16.238}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2069037861
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069037859}
+--- !u!114 &2069037862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2069037859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: '0
+
+'
 --- !u!1 &2069450793
 GameObject:
   m_ObjectHideFlags: 0
@@ -11043,7 +11189,7 @@ GameObject:
   - component: {fileID: 2069450796}
   - component: {fileID: 2069450795}
   m_Layer: 5
-  m_Name: Text (17)
+  m_Name: 6,7 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
