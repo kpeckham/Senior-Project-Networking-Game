@@ -39,6 +39,7 @@ public class PathGenerator : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		// TODO Figure out how to call Begin elsewhere and call it with a different level
+		// for the later levels, just pass the level number into begin (Begin(2) and Begin(3))
 		Begin ();
 	}
 
@@ -139,7 +140,7 @@ public class PathGenerator : MonoBehaviour {
 			if (pathObjects1[i].isActiveAndEnabled) 
 			{
 				distance += Int32.Parse (pathWeights [i].text);
-				UnityEngine.Debug.Log(distance);
+				// UnityEngine.Debug.Log(distance);
 			}
 		}
 
