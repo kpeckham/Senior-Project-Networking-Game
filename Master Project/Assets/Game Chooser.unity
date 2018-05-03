@@ -1994,7 +1994,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1077224466}
         m_MethodName: changeMenuScene
         m_Mode: 5
         m_Arguments:
@@ -3069,7 +3069,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1077224466}
         m_MethodName: changeMenuScene
         m_Mode: 5
         m_Arguments:
@@ -7798,6 +7798,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4a2670a94a4514babf62aa999517e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterChosen: 0
+  IsNinaChosen: 0
 --- !u!1 &1115388842
 GameObject:
   m_ObjectHideFlags: 0
@@ -12468,7 +12470,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1077224466}
         m_MethodName: changeMenuScene
         m_Mode: 5
         m_Arguments:
@@ -13729,7 +13731,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1077224466}
         m_MethodName: changeMenuScene
         m_Mode: 5
         m_Arguments:
@@ -13851,7 +13853,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1077224466}
         m_MethodName: changeMenuScene
         m_Mode: 5
         m_Arguments:
