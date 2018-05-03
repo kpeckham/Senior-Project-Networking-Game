@@ -35,3 +35,6 @@ sysinfo.txt
 *.unitypackage
 
 Old Versions of Uniy Project/Game Nef copy/
+Master Project/Assets/Scenes/DijkstrasGame.unity.meta
+Master Project/Assets/Scenes/Segmentation Game.unity.meta
+Master Project/Assets/Scripts/CheckSumGenerators.meta
