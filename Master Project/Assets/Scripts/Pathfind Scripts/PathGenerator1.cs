@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 using System.Linq;
 using System.Text;
@@ -127,6 +128,12 @@ public class PathGenerator1 : MonoBehaviour {
 		return minIndex;
 	}
 
+
+	public void changeMenuScene(string sceneName)
+	{
+		SceneManager.LoadScene (sceneName);
+	}
+
 	public void checkScore()
 	{
 		// UnityEngine.Debug.Log(pathObjects1.Count);
@@ -146,6 +153,7 @@ public class PathGenerator1 : MonoBehaviour {
 
 		if (distance == distances [destination]) {
 			UnityEngine.Debug.Log("Success");
+			changeMenuScene ("DijkstraGameOver2-3");
 		} 
 		else 
 		{
