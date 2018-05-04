@@ -7,7 +7,10 @@ public class MainMenu : MonoBehaviour {
 	public bool CharacterChosen;
 	public bool IsNinaChosen;
 
-
+	public void Start()
+	{
+		 Screen.fullScreen = true;
+	}
 
 	public void CheckChoosen()
 	{
