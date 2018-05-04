@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 using System.Linq;
 using System.Text;
@@ -47,7 +48,8 @@ public class PathGenerator2 : MonoBehaviour {
 		// UnityEngine.Debug.Log(pathObjects1.Count);
 		// UnityEngine.Debug.Log(pathObjects1[0]);
 			
-		
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
+
 		officeColors.Add(0, "Blue");
 		officeColors.Add(2, "Red");
 		officeColors.Add(7, "Green");
@@ -127,6 +129,11 @@ public class PathGenerator2 : MonoBehaviour {
 		return minIndex;
 	}
 
+	public void changeMenuScene(string sceneName)
+	{
+		SceneManager.LoadScene (sceneName);
+	}
+
 	public void checkScore()
 	{
 		// UnityEngine.Debug.Log(pathObjects1.Count);
@@ -146,6 +153,7 @@ public class PathGenerator2 : MonoBehaviour {
 
 		if (distance == distances [destination]) {
 			UnityEngine.Debug.Log("Success");
+			changeMenuScene ("DijkstraGameOver3-4");
 		} 
 		else 
 		{
