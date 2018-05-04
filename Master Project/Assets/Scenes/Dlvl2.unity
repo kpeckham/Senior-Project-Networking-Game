@@ -3067,7 +3067,6 @@ GameObject:
   - component: {fileID: 606315092}
   - component: {fileID: 606315091}
   - component: {fileID: 606315090}
-  - component: {fileID: 606315089}
   - component: {fileID: 606315095}
   m_Layer: 0
   m_Name: Main Camera (1)
@@ -3076,55 +3075,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &606315089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 606315088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22fc2703d337f4f87a106e5a69dd2cf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pathWeights:
-  - {fileID: 299774348}
-  - {fileID: 2058583744}
-  - {fileID: 1117887844}
-  - {fileID: 1930363601}
-  - {fileID: 1627386775}
-  - {fileID: 193319349}
-  - {fileID: 248445843}
-  - {fileID: 171230728}
-  - {fileID: 2044870134}
-  - {fileID: 606038490}
-  - {fileID: 623386052}
-  - {fileID: 915695400}
-  - {fileID: 1304730616}
-  - {fileID: 1007594961}
-  - {fileID: 1993310198}
-  - {fileID: 557902213}
-  - {fileID: 308624947}
-  pathObjects1:
-  - {fileID: 1816654073}
-  - {fileID: 1940911448}
-  - {fileID: 1632602172}
-  - {fileID: 820977458}
-  - {fileID: 316641933}
-  - {fileID: 1876935079}
-  - {fileID: 663998861}
-  - {fileID: 1606234538}
-  - {fileID: 580791170}
-  - {fileID: 70141224}
-  - {fileID: 734360662}
-  - {fileID: 2099997254}
-  - {fileID: 1057714985}
-  - {fileID: 1214859387}
-  - {fileID: 1974679901}
-  - {fileID: 1721477995}
-  - {fileID: 220060292}
-  sourceText: {fileID: 1508348939}
-  destText: {fileID: 850910798}
 --- !u!114 &606315090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3213,43 +3163,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathWeights:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 299774348}
+  - {fileID: 2058583744}
+  - {fileID: 1117887844}
+  - {fileID: 1930363601}
+  - {fileID: 1627386775}
+  - {fileID: 193319349}
+  - {fileID: 248445843}
+  - {fileID: 171230728}
+  - {fileID: 2044870134}
+  - {fileID: 606038490}
+  - {fileID: 623386052}
+  - {fileID: 915695400}
+  - {fileID: 1304730616}
+  - {fileID: 1007594961}
+  - {fileID: 1993310198}
+  - {fileID: 557902213}
+  - {fileID: 308624947}
   pathObjects1:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  sourceText: {fileID: 0}
-  destText: {fileID: 0}
+  - {fileID: 1816654073}
+  - {fileID: 1940911448}
+  - {fileID: 1632602172}
+  - {fileID: 820977458}
+  - {fileID: 316641933}
+  - {fileID: 1876935079}
+  - {fileID: 663998861}
+  - {fileID: 1606234538}
+  - {fileID: 580791170}
+  - {fileID: 70141224}
+  - {fileID: 734360662}
+  - {fileID: 2099997254}
+  - {fileID: 1057714985}
+  - {fileID: 1214859387}
+  - {fileID: 1974679901}
+  - {fileID: 1721477995}
+  - {fileID: 220060292}
+  sourceText: {fileID: 1508348939}
+  destText: {fileID: 850910798}
 --- !u!1 &611512133
 GameObject:
   m_ObjectHideFlags: 0
@@ -4496,9 +4446,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 606315090}
+        m_MethodName: clickyes
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8139,7 +8089,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 606315089}
+      - m_Target: {fileID: 0}
         m_MethodName: changeMenuScene
         m_Mode: 5
         m_Arguments:
@@ -8261,7 +8211,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 606315089}
+      - m_Target: {fileID: 606315095}
         m_MethodName: checkScore
         m_Mode: 1
         m_Arguments:

@@ -353,11 +353,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2162,11 +2162,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -3067,8 +3067,8 @@ GameObject:
   - component: {fileID: 606315092}
   - component: {fileID: 606315091}
   - component: {fileID: 606315090}
-  - component: {fileID: 606315089}
   - component: {fileID: 606315095}
+  - component: {fileID: 606315089}
   m_Layer: 0
   m_Name: Main Camera (2)
   m_TagString: MainCamera
@@ -3084,7 +3084,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 606315088}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22fc2703d337f4f87a106e5a69dd2cf1, type: 3}
+  m_Script: {fileID: 11500000, guid: 21adc75263a76426091b37c38d70b010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pathWeights:
@@ -4281,11 +4281,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
