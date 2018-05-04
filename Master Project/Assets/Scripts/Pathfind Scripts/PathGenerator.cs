@@ -47,7 +47,7 @@ public class PathGenerator : MonoBehaviour {
 	void Begin (int level = 1) {
 		// UnityEngine.Debug.Log(pathObjects1.Count);
 		// UnityEngine.Debug.Log(pathObjects1[0]);
-			
+		Screen.orientation = ScreenOrientation.LandscapeLeft;
 		
 		officeColors.Add(0, "Blue");
 		officeColors.Add(2, "Red");
